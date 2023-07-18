@@ -17,8 +17,8 @@ $ rm -f ~/.{yabai,skhd}rc
 
 # Install configs
 $ git clone https://github.com/alex-belost/yabai-config.git ~/.config/yabai
-$ ln -s ~/.config/yabai/yabairc" ~/.yabairc"
-$ ln -s ~/.config/yabai/skhdrc" ~/.skhdrc"
+$ ln -s ~/.config/yabai/yabairc ~/.yabairc
+$ ln -s ~/.config/yabai/skhdrc ~/.skhdrc
 ```
 
 ## Keyboard Shortcuts
