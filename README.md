@@ -35,7 +35,7 @@ $ ln -s ~/.config/yabai/skhdrc ~/.skhdrc
 | Resize down  | <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>j</kbd> |
 | Resize up    | <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>k</kbd> |
 | Resize right | <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd> |
-| Equalise     | <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>e</kbd> |
+| Equalise     | <kbd>alt</kbd> + <kbd>e</kbd>                    |
 
 ### Move Windows
 
@@ -45,7 +45,7 @@ $ ln -s ~/.config/yabai/skhdrc ~/.skhdrc
 
 | Action                      | Key Combination                                    |
 | --------------------------- | -------------------------------------------------- |
-| Send to last active desktop | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>m</kbd>   |
+| Send to last active desktop | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>d</kbd>   |
 | Send to previous workplace  | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>p</kbd>   |
 | Send to next workplace      | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>n</kbd>   |
 | Send to workplace           | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>num</kbd> |
@@ -63,8 +63,8 @@ $ ln -s ~/.config/yabai/skhdrc ~/.skhdrc
 
 | Action            | Key Combination                                  |
 | ----------------- | ------------------------------------------------ |
-| Fullscreen        | <kbd>alt</kbd> + <kbd>f</kbd>                    |
-| Native fullscreen | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>f</kbd> |
+| Fullscreen        | <kbd>alt</kbd> + <kbd>m</kbd>                    |
+| Native fullscreen | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>m</kbd> |
 
 ### Window Insertion Point
 
@@ -81,7 +81,7 @@ NOTE: To cancel insertion point, press the last inerstion key combination.
 
 | Action        | Key Combination                                                     |
 | ------------- | ------------------------------------------------------------------- |
-| Toggle float  | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>space</kbd>                |
+| Toggle float  | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>t</kbd>                |
 | Toggle gaps   | <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>g</kbd>                    |
 | Restart yabai | <kbd>lctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>r</kbd> |
 
@@ -112,18 +112,18 @@ fn + lalt - 3 : /path/to/script
 ...
 ```
 
-### Launch iTerm2
+<!-- ### Launch iTerm2 -->
+<!---->
+<!-- #### Description -->
+<!---->
+<!-- Launches iTerm2. -->
+<!---->
+<!-- Click [here](scripts/open_iterm2.sh) to view the script. -->
 
-#### Description
-
-Launches iTerm2.
-
-Click [here](scripts/open_iterm2.sh) to view the script.
-
-#### Key Combination
-
-<kbd>alt</kbd> + <kbd>return</kbd>
-
-```
-alt - return : /path/to/launch/terminal
-```
+<!-- #### Key Combination -->
+<!---->
+<!-- <kbd>alt</kbd> + <kbd>return</kbd> -->
+<!---->
+<!-- ``` -->
+<!-- alt - return : /path/to/launch/terminal -->
+<!-- ``` -->
