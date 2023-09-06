@@ -90,11 +90,11 @@ yabai -m mouse_drop_action                  swap
 
 # ===== Rules ==================================
 
-yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref|Finder)" sticky=on manage=off grid=4:4:1:1:2:2;
-yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off grid=4:4:1:1:2:2
+yabai -m rule --add label="Finder" app="^Finder$" sticky=on manage=off grid=6:6:1:1:4:4;
+yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off sticky=on grid=4:4:1:1:2:2
 yabai -m rule --add label="macfeh" app="^macfeh$" manage=off grid=4:4:1:1:2:2
-yabai -m rule --add label="System Preferences" app="^System Preferences$" title=".*" manage=off grid=4:4:1:1:2:2
-yabai -m rule --add label="App Store" app="^App Store$" manage=off grid=4:4:1:1:2:2
+yabai -m rule --add label="System Preferences" app="^System Preferences$" title=".*" manage=off grid=6:6:1:1:4:4
+yabai -m rule --add label="App Store" app="^App Store$" manage=off grid=6:6:1:1:4:4
 yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off grid=4:4:1:1:2:2
 yabai -m rule --add label="Calculator" app="^Calculator$" manage=off sticky=on grid=4:4:1:1:2:2
 yabai -m rule --add label="Dictionary" app="^Dictionary$" manage=off grid=4:4:1:1:2:2
@@ -102,15 +102,14 @@ yabai -m rule --add label="mpv" app="^mpv$" manage=off grid=4:4:1:1:2:2
 yabai -m rule --add label="Software Update" title="Software Update" manage=off grid=4:4:1:1:2:2
 yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off grid=4:4:1:1:2:2
 
-yabai -m rule --add app="^System Settings$" sticky=on layer=above manage=off grid=4:4:1:1:2:2;
+yabai -m rule --add app="^System Settings$" sticky=on layer=above manage=off grid=6:6:1:1:4:4;
 yabai -m rule --add app="^Alfred Preferences$" sticky=on layer=above manage=off grid=4:4:1:1:2:2;
 yabai -m rule --add app="^Disk Utility$" sticky=on layer=above manage=off grid=4:4:1:1:2:2;
-yabai -m rule --add app="^Activity Monitor$" sticky=on layer=above manage=off grid=4:4:1:1:2:2;
-yabai -m rule --add app="^1Password$" layer=above manage=off grid=4:4:1:1:2:2;
-yabai -m rule --add label="Pritunl" app="^Pritunl$" title="^(Pritunl)$" sticky=on layer=above manage=off grid=4:4:1:1:2:2;
-qabai -m rule --add label="MAMP" app="^MAMP$" title="^(MAMP)$" sticky=on layer=above manage=off grid=4:4:1:1:2:2;
+yabai -m rule --add app="^Activity Monitor$" sticky=on layer=above manage=off grid=6:6:1:1:4:4;
+yabai -m rule --add app="^1Password$" layer=above manage=off grid=6:6:3:0:4:4;
+yabai -m rule --add label="Pritunl" app="Pritunl" sticky=on layer=above manage=off grid=4:4:1:1:2:2;
+qabai -m rule --add label="MAMP" app="MAMP" sticky=on layer=above manage=off grid=4:4:1:1:2:2;
 
-yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off sticky=on grid=4:4:1:1:2:2
 
 yabai -m rule --add app="^Chrome$" space=1
 yabai -m rule --add app="^Safari$" space=1
