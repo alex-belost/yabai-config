@@ -92,6 +92,7 @@ yabai -m mouse_drop_action                  swap
 
 yabai -m rule --add label="Finder" app="^Finder$" sticky=on manage=off grid=6:6:1:1:4:4;
 yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off sticky=on grid=4:4:1:1:2:2
+yabai -m rule --add label="Vivaldi" app="^Vivaldi$" title="^Vivaldi Settings:" manage=off sticky=on grid=4:4:1:1:2:2
 yabai -m rule --add label="macfeh" app="^macfeh$" manage=off grid=4:4:1:1:2:2
 yabai -m rule --add label="System Preferences" app="^System Preferences$" title=".*" manage=off grid=6:6:1:1:4:4
 yabai -m rule --add label="App Store" app="^App Store$" manage=off grid=6:6:1:1:4:4
@@ -112,15 +113,20 @@ qabai -m rule --add label="MAMP" app="MAMP" sticky=on layer=above manage=off gri
 
 
 yabai -m rule --add app="^Chrome$" space=1
+yabai -m rule --add app="^Vivaldi$" space=1
 yabai -m rule --add app="^Safari$" space=1
 yabai -m rule --add app="^FireFox$" space=1
 
 yabai -m rule --add app="iTerm2$" space=2
 yabai -m rule --add app="Warp$" space=2
 
+yabai -m rule --add app="Local$" space=3
+
 yabai -m rule --add app="^Figma$" space=4
 
 yabai -m rule --add app="^Sublime Merge$" space=6
+
+yabai -m rule --add app="Notion$" space=7
 
 yabai -m rule --add app="^Spotify$" space=9
 yabai -m rule --add app="^Calendar$" space=9
